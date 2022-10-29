@@ -1,0 +1,14 @@
+THE G-Buffer
+- Buffer of unsigned 32-bit integers
+    - layout:
+        first int: depth
+            z-value (32)
+        second int: color
+            red channel (8)
+            green channel (8)
+            blue channel (8)
+            "luminance" (8)
+        third int: normals
+            xy-angle (16)
+            z-angle (16)
+
